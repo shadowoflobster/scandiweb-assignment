@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <div className="Header d-flex align-items-center justify-content-between">
       <nav className="navigation bg-white col-2 mt-auto">
-        <ul className="nav-list d-flex p-0">
+        <ul className="nav-list d-flex p-0 h-100">
           <li className="nav-item">
             WOMEN
           </li>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+
+.Listings-page{
+    padding: 0 10% 0 10%;
+}
+
+.listings-header{
+    font-family: "Raleway";
+    margin: 80px 0 103px 0;
+}
+.listings-container{    
+    gap: 5%;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 30px;   */
+}

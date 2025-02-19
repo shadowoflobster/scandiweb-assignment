@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+
+.card-div{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway";
+    transition: all linear 100ms;
+}
+.card-image{
+    height: 360px;
+}
+
+.card-div:hover{
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+    backdrop-filter: blur(35px);
+}
