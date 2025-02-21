@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../components/Card/Card"
 import './ListingsPage.css';
 
+
 const ListingsPage: React.FC = () =>{
     return(
         <div className="Listings-page">

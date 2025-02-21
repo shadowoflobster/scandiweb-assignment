@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('../../assets/fonts/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: "SourceSansPro";
+    src: url('../../assets/fonts/SourceSansPro-Regular.otf');
+}
+@font-face{
+    font-family: "RobotoCondensed";
+    src: url('../../assets/fonts/RobotoCondensed-Regular.ttf');
+}
+
+.product-details-name{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.product-page{
+    padding: 0 10% 0 10%;
+}
+.image-selection-item{
+    height: 20%;
+    width: 100%;
+}
+
+.product-details-size-item{
+    min-width: 63px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: "SourceSansPro";
+}
+.product-details-span{
+    font-family: "RobotoCondensed";
+    font-weight: 700;
+    font-size: 18px;
+}
+.product-details-color-item{
+    min-height: 32px;
+    min-width: 32px;
+    background-color: green;
+}
+.details-price-item{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.add-to-cart-button{
+    width: 100%;
+    height: 52px;
+    background-color: #5ECE7B;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size:16px;
+    border: none;
+}
